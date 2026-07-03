@@ -1,0 +1,39 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data folders
+data/
+dataa/
+datasets/
+
+# Data files
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+.DS_Store

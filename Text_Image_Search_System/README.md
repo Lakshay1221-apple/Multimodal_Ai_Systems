@@ -42,10 +42,20 @@ The program follows these steps:
 Install the required Python packages before running the notebook:
 
 ```bash
-pip install torch transformers pillow ipython jupyter
+pip install -r requirements.txt
 ```
 
 If you are using a virtual environment, activate it before installing the packages.
+
+## Streamlit UI
+
+Run the interactive search app from this folder:
+
+```bash
+streamlit run app.py --server.fileWatcherType none
+```
+
+The app lets you enter a query such as `a cute animal`, choose how many matches to show, and view ranked image results with similarity scores.
 
 ## How to Run
 
